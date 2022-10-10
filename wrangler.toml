@@ -1,0 +1,8 @@
+name = "project-one"
+compatibility_date = "2022-10-10"
+
+main = "build/worker/shim.mjs"
+
+[build]
+command = "worker-build --release"
+
